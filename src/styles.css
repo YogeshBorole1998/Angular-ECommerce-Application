@@ -1,1 +1,41 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* Notes : 
+1. flex - when we do display flex whatever child-element in that parent element will be make in one line.
+2. justify-content - spce between contents
+
+*/
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  margin-left: 6%;
+  margin-right: 6%;
+  margin-top: 1%;
+}
+
+.common-form {
+  text-align: center;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  width: 500px;
+}
+
+.form-input {
+  height: 35px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  border: 1px solid blueviolet;
+  color: blueviolet;
+}
+
+.form-button {
+  height: 35px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  border: 1px solid darkred;
+  color: blueviolet;
+  cursor: pointer;
+}

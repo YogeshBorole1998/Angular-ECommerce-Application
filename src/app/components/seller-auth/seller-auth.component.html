@@ -1,0 +1,39 @@
+<div class="seller-auth">
+  <div class="sign-up">
+    <h1>Seller Sign-Up</h1>
+    <form
+      #sellerSignUp="ngForm"
+      (ngSubmit)="signUp(sellerSignUp.value)"
+      class="common-form"
+    >
+      <input
+        type="text"
+        class="form-input"
+        name="name"
+        ngModel
+        placeholder="Enter Name"
+      />
+      <input
+        type="password"
+        class="form-input"
+        name="password"
+        ngModel
+        placeholder="Enter Password"
+      />
+      <input
+        type="email"
+        class="form-input"
+        name="email"
+        ngModel
+        placeholder="Enter Email"
+      />
+      <button class="form-button">SignUp</button>
+    </form>
+  </div>
+</div>
+
+<!-- 
+    Notes : 
+    1. #sellerSignUp - Name of the form & in form we are always use ngForm
+    2. ngModel - all the fields connected with your form & you will get values
+ -->

@@ -1,0 +1,22 @@
+{
+  "seller": [
+    {
+      "id": "3cc1",
+      "name": "Akshitha P",
+      "email": "akshitha.putorri@gmail.com",
+      "password": "Test&1998"
+    },
+    {
+      "id": "0656",
+      "name": "dummy",
+      "password": "trst",
+      "email": "dummy123@yahoo.com"
+    },
+    {
+      "id": "ff27",
+      "name": "dummy",
+      "password": "67890",
+      "email": "borole116@gmail.com"
+    }
+  ]
+}
